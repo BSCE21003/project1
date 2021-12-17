@@ -13,7 +13,7 @@ using namespace std;
 
 // ************************* Functions window ************************* //
 
-void createBankAccount() {
+void createBankAccount(customer c) {
     customer c;
     ofstream writeFile;
     writeFile.open("Bank Data.txt", ios :: app);
@@ -72,7 +72,7 @@ void modify_account(int n){
         cout<< " File could not be opened.\n\n Press any key...";
         return;
     }
-    while(!File.eof()&& found ==false){
+    while(!File.eof() && !recFound){
         File.read(reinterpret_cast)
     }
 }
