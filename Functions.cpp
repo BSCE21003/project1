@@ -13,8 +13,10 @@ using namespace std;
 
 // ************************* Functions window ************************* //
 
+
+
 void createBankAccount(customer c) {
-    customer c;
+//   customer c;
     ofstream writeFile;
     writeFile.open("Bank Data.txt", ios :: app);
     if (!writeFile) {
@@ -62,17 +64,4 @@ void readAllData() {
         }
     }
     readFile.close();
-}
-void modify_account(int n){
-    bool recFound = false;
-    account ac;
-    fstream File;
-    File.open("account.dat", ios::binarty | ios::in | ios::out);
-    if(!File){
-        cout<< " File could not be opened.\n\n Press any key...";
-        return;
-    }
-    while(!File.eof() && !recFound){
-        File.read(reinterpret_cast)
-    }
 }

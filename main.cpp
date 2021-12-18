@@ -1,15 +1,8 @@
 #include <iostream>
 #include <string>
-#include "Functions.cpp"
+#include "Functions.h"
 using namespace std;
 
-
-    struct customer {
-
-        string name;
-        long  account_number;
-        unsigned long long int cash = 0;
-    };
 
 
     int main(){
@@ -19,4 +12,4 @@ customer c;
         return 0;
     }
 
-//
+

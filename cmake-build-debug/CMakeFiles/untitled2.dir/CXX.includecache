@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/H.T/CLionProjects/untitled2/project1/Functions.cpp
+Functions.h
+/cygdrive/c/Users/H.T/CLionProjects/untitled2/project1/Functions.h
+iostream
+-
+iomanip
+-
+string
+-
+fstream
+-
+
+/cygdrive/c/Users/H.T/CLionProjects/untitled2/project1/Functions.h
+string
+-
+
+/cygdrive/c/Users/H.T/CLionProjects/untitled2/project1/main.cpp
+iostream
+-
+string
+-
+Functions.h
+/cygdrive/c/Users/H.T/CLionProjects/untitled2/project1/Functions.h
+
